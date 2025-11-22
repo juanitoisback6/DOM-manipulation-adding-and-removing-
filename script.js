@@ -25,6 +25,7 @@ removebtn.addEventListener("click", ()=>{
 
 
   if (list.lastChild) {
+          numbb--;
     list.lastChild.remove();
   } else {
     console.log("No items to remove");
